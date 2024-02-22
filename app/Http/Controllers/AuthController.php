@@ -102,13 +102,15 @@ public function login(Request $request)
     return response()->json(['error' => 'Unauthorized'], 401);
 }
 
-public function logout(Request $request) {
-    if ($request->user()) { 
-        $request->user()->tokens()->delete();
+public function logout(Request $request)
+{
+    if (!$request->user()) {
+        return response()->json(['error' => 'Unauthorized'], 401);
     }
 
-    return response()->json(['message' => 'Logged out successfully']);
-}
+    $request->user()->tokens()->delete();
 
+    return response()->json(['message' => 'Logged out successfully'], 200);
+}
 
 }

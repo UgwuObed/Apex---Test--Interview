@@ -44,9 +44,7 @@
 
 ## 7. Run Test
 
-  This project utilizes Pest for its testing framework. To run all the tests and ensure everything configured as expected(The phpunit.xml file is designed to run tests with Pest and incorporates environment setup for testing purposes)
-
-, use the following command:
+  This project utilizes Pest for its testing framework. To run all the tests and ensure everything configured as expected(The phpunit.xml file is designed to run tests with Pest and incorporates environment setup for testing purposes), use the following command:
 
   ./vendor/bin/pest
 

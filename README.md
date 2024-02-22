@@ -1,7 +1,7 @@
 
 ## User Management API
 
-   As instructed, this project is a RESTful API for user management, allowing users to register, login, view/update their profiles, and perform CRUD operations on user accounts. It also includes additional security measures such as email domain restrictions, password length requirements, and audit logging to hence security for admin registration. I had the option to seed the admin credentials for security reasons i opted for creating a designated route for admin creation and extra security measures. 
+   As instructed, this project is a RESTful API for user management, allowing users to register, login, view/update their profiles, and perform CRUD operations on user accounts. It also includes additional security measures such as email domain restrictions, password length requirements, and audit logging to hence security for admin registration. I had the option to seed the admin credentials but for security reasons i opted for creating a dedicated route for admin creation and extra security measures. 
 
 
 ## Getting Started
